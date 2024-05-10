@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="icon" href="./multimedia/images/form.png">
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>REGISTRATION FORM</legend>
+        <label for="firstname">Firstname:</label>
+        <input type="text" id="firstname" name="firstname" >
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="sai@gmail.com">
+        <label for="pswd">Password:</label>
+        <input type="password" id="pswd" name="pswd" pattern="[a-zA-Z0-9]{4,12}"><br><br>
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age">
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}"><br><br>
+        <label for="fileupload">File:</label>
+        <input type="file" id="fileupload" name="fileupload" accept="image/*"><br><br>
+        <input type="radio" id="Male" name="gender" value="male is selected" checked>
+        <label for="Male" name="gender">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female" name="gender">Female</label>
+        <input type="radio" id="Others" name="gender">
+        <label for="Others" name="gender">Others</label><br><br>
+        <input type="checkbox" id="car1" name="car1">
+        <label for="car1" name="car1">AudiQ1</label>
+        <input type="checkbox" id="car2" name="car2">
+        <label for="car2" name="car2">Alto</label>
+        <input type="checkbox" id="car3" name="car3" checked>
+        <label for="car3" name="car3">Vento</label><br><br>
+        <label for="color">color:</label>
+        <input type="color" id="color" name="color"><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+        <label for="datetime">DateTime:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
+        <input type="submit"  value="submit">
+        <input type="reset"  value="reset"><br><br>
+        <p><u>Enquries:</u></p>
+        <textarea rows="3" cols="25">
+
+        </textarea>
+
+
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
